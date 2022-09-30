@@ -1,0 +1,89 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8AEA92;
+}
+.container{
+    margin: 5% 15% auto;
+    height: 400px;
+    width: 600px;
+}
+
+.title{
+    color: #33202A;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.form-container{
+    background-color: #80ADA0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    height: 230px;
+    flex-direction: column;
+}
+.form-container .mb-3{
+    width: 500px;
+    margin: 0 auto;
+}   
+
+.form-container .mb-3 label{
+
+    display: block;
+    font-weight: bold;
+    padding:15px;
+}
+
+.form-container .mb-3 input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border:  2px solid #ccc;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.form-container .mb-3 input:focus{
+    outline: solid 3px #0099ff;
+
+}
+.btn{
+    margin-top: 10px;
+    border: none;
+    padding: 8px 0;
+    width: 15%;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn.btn-clear{
+    background-color:#33202A;
+    color: white;
+}
+.btn.btn-clear:hover{
+    background-color:black ;
+}
+.btn.btn-result{
+    background-color:#33202A;
+    color: white;
+    margin-bottom: 10px;
+}
+.btn.btn-result:hover{
+    background-color:black ;
+}
+.result{
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
